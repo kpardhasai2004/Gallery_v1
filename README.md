@@ -1,46 +1,83 @@
-
 # Gallery_v1
 
 ![GitHub](https://img.shields.io/github/license/kpardhasai2004/Gallery_v1)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kpardhasai2004/Gallery_v1)
 ![GitHub issues](https://img.shields.io/github/issues-raw/kpardhasai2004/Gallery_v1)
 
-Gallery_v1 is a simple image gallery application that allows users to view and organize their image collections. This project provides an easy-to-use interface for managing images and albums.
+
+# Gallery_v1
+
+
+
+Gallery_v1 is a simple image gallery application that allows users to view, upload, and manage images. This README provides an overview of the project, its features, and instructions for setting up and running the application.
+
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
 
 ## Features
 
-- **Image Management**: Upload, organize, and view your images and albums.
-- **User-Friendly Interface**: The application offers an intuitive GUI for easy interaction.
-- **Albums**: Create and manage albums to categorize your images.
-- **Open Source**: This project is open-source, allowing for contributions and modifications.
+- **Image Upload**: Users can upload images to the gallery using the user-friendly interface.
 
-## Getting Started
+- **Image Display**: View uploaded images in a grid or list format.
 
-To get started with Gallery_v1, follow these steps:
+- **Image Details**: Clicking on an image displays details such as the title, description, and upload date.
 
-1. Clone the repository to your local machine:
+- **Image Management**: Users can edit and delete their uploaded images.
 
-   ```bash
-   git clone https://github.com/kpardhasai2004/Gallery_v1.git
-   ```
+- **Search**: Search for images based on keywords, tags, or categories.
 
-2. Navigate to the project directory:
+- **Tagging**: Add tags to images for better organization and searching.
 
-   ```bash
-   cd Gallery_v1
-   ```
+## Installation
 
-3. Install the necessary dependencies (if any). You can mention specific dependencies or requirements here.
+To run this project locally, follow these steps:
 
-4. Run the application:
+1. Clone the repository:
 
-   ```bash
-   python main.py
-   ```
+```bash
+git clone https://github.com/kpardhasai2004/Gallery_v1.git
+cd Gallery_v1
+```
 
-5. Start organizing your image collection!
+2. Install the project dependencies:
 
-## Customization
+```bash
+npm install
+```
 
-You can customize the application's behavior and features by modifying the code or configuration files. Make it fit your image management needs.
+3. Create a `.env` file in the project's root directory and set the following environment variables:
 
+```env
+DATABASE_URI=your_database_uri
+SECRET_KEY=your_secret_key
+```
+
+4. Initialize the database:
+
+```bash
+npm run migrate
+```
+
+5. Start the development server:
+
+```bash
+npm run start
+```
+
+The application will be available at `http://localhost:3000`.
+
+## Usage
+
+Once the application is running, you can use it through your web browser. start uploading and managing images in your gallery. Explore the various features and functionality provided by the application.
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Submit a pull request to the `main` branch of the original repository.
+
+Please ensure your code follows the existing coding style and conventions.
+
+We hope you find Gallery_v1 helpful and encourage you to contribute or use it as a starting point for your own projects. If you have any questions or encounter issues, please open an issue on this repository.
