@@ -72,12 +72,6 @@ The application will be available at `http://localhost:3000`.
 
 Once the application is running, you can use it through your web browser. start uploading and managing images in your gallery. Explore the various features and functionality provided by the application.
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your fork.
-5. Submit a pull request to the `main` branch of the original repository.
-
 Please ensure your code follows the existing coding style and conventions.
 
 We hope you find Gallery_v1 helpful and encourage you to contribute or use it as a starting point for your own projects. If you have any questions or encounter issues, please open an issue on this repository.
